@@ -3,7 +3,7 @@
 
 ### Macro: create the function in sql format
 1. 
-- ```bash
+```bash
 {% macro get_payment_type_description(payment_type) -%}
     case {{ payment_type }}
         when 1 then 'Credit card'
