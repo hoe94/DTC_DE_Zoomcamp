@@ -1,5 +1,3 @@
-# Youtube Video: https://www.youtube.com/watch?v=UVI30Vxzd6c&list=PL3MmuxUbc_hJed7dXYoJw8DoCuVHhGEQb&index=41
-
 ### DE Zoomcamp 4.3.1 - Build the First dbt Models
 
 
