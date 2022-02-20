@@ -17,7 +17,7 @@
 ```
 
 2. 
-- ```bash
+```bash
 {{ get_payment_type_description('payment_type') }} as payment_type_description, 
 ```
 
