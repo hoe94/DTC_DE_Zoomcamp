@@ -3,7 +3,7 @@
 
 ### Macro: create the function in sql format
 1. 
-```bash
+- ```bash
 {% macro get_payment_type_description(payment_type) -%}
     case {{ payment_type }}
         when 1 then 'Credit card'
@@ -17,7 +17,7 @@
 ```
 
 2. 
-```bash
+- ```bash
 {{ get_payment_type_description('payment_type') }} as payment_type_description, 
 ```
 
@@ -26,7 +26,7 @@
 - ```bash dbt deps```
 
 2. 
-```bash {{ dbt_utils.surrogate_key(['vendorid', 'tpep_pickup_datetime']) }} as tripid```
+- ```bash {{ dbt_utils.surrogate_key(['vendorid', 'tpep_pickup_datetime']) }} as tripid```
 
 ### Seed:
 1. taxi_zone_lookup.csv
